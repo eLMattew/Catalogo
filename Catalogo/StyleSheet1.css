@@ -1,0 +1,126 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-color: #f2c9c3;
+}
+#superior{
+    position:fixed;
+    width:100%;
+    background-color:#f2c9c3;
+    top:0px;
+    height:235px;
+    z-index:2;
+}
+header {
+    
+    text-align: center;
+
+}
+h1{
+    
+    text-align:center;
+    font-size:100px;
+    text-shadow: 5px 5px 10px #fe3131
+    
+}
+h2 {
+   
+    font-size: 50px;
+    text-shadow: 5px 5px 10px #fe3131
+}
+#menu {
+   
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+nav ul {
+    margin-left: 150px;
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    
+}
+li{
+    width:200px;
+}
+button {
+    width: 100%;
+    height: 100%;
+    font-size: 150%;
+    box-shadow: 15px 15px 20px black;
+    border-radius: 20px;
+    background: #ef7979d9
+
+}
+button:hover {
+    background-color: #fe3131;
+    box-shadow: 0px 0px 25px #fe3131;
+}
+.Clear{
+    float:none;
+    clear:both;
+}
+hr{
+    border:none;
+    margin-top:30px ;
+    margin-bottom:10px;
+    height:3px;
+    background-color:black;
+}
+.linCont{
+    border:none;
+    margin:1px;
+    background-color:#ef9494d9;
+    opacity:0.3;
+}
+
+#contenedorG {
+    position: absolute;
+    width: 100%;
+    overflow-y: scroll;
+    top: 235px;
+}
+.encabezado {
+    font-size: 30px;
+    font-family: 'MV Boli';
+    text-shadow: 0px 0px 3px #fe3131;
+    margin: 5px;
+}
+.contenedorO{
+    height:300px;
+    width:250px;
+    margin:5px;
+    border:1px solid black;
+    float:left;
+    background-color:#f6e2e0
+}
+.contImg{
+    width:100%;
+    height:70%;
+    background-color:black;
+}
+.nombre {
+    font-size: 20px;
+    font-family: 'MV Boli';
+}
+.precio{
+    font-size:20px;
+    font-family:'MV Boli';
+}
+.monto {
+    font-size: 20px;
+    font-family: 'MV Boli';
+}
+.contImg img{
+    width:100%;
+    height:100%;
+}
+
+
+
